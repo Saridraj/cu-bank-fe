@@ -40,7 +40,7 @@ function App() {
         <Route exact path="/" element={<Login/>} />
         <Route exact path="/register" element={<Register/>} />
         <Route exact path="/account" element={<Account/>} />
-        <Route path="*" element={<NotFound/>} />
+        {/* <Route path="*" element={<NotFound/>} /> */}
         </Routes>
         
       </div>
